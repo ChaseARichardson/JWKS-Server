@@ -7,7 +7,6 @@ import json
 import jwt
 import datetime
 
-# Assuming your server code is in a file called `jwks_server.py`
 from server import MyServer, host_name, server_port, int_to_base64
 
 class TestJWKSAuthEndpoint(unittest.TestCase):
