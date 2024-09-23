@@ -1,3 +1,8 @@
-JWKS-Server
-Project 1 for 3550
-Linted using PEP 8, checked with pycodestyle
+- JWKS-Server
+- Project 1 for 3550
+- Linted using PEP 8, checked with pycodestyle
+- Run with the command `python server.py`
+- Test using curl commands:
+  - curl -X POST "http://localhost:8080/auth"
+  - curl -X GET "http://localhost:8080/.well-known/jwks.json"
+  - curl -X POST "http://localhost:8080/auth?expired=true"
